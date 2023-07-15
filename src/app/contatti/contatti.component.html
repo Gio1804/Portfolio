@@ -1,1 +1,63 @@
-<p>contatti works!</p>
+<!DOCTYPE html>
+<html lang="it">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <h1>Contattami</h1>
+
+    <mat-card class="container" id="contatti">
+        <mat-card-content>
+             <form name="myForm" class="contact-form"  (submit)="sendEmail($event)" >
+                <label>Nome</label>
+                <input type="text" name="user_name" placeholder="Inserisci il tuo nome" required>
+
+                <label>Cognome</label>
+                <input type="text" name="user_name" placeholder="Inserisci il tuo cognome" required>
+
+                <label>Email</label>
+                <input type="email" name="user_email" placeholder="Inserisci la tua e-mail" required>
+
+                <label>Messaggio</label>
+                <textarea name="message" placeholder="Inserisci il tuo messaggio"></textarea>
+
+                <input type="submit" value="Invia"  >
+                
+            </form>
+        </mat-card-content>
+    </mat-card>
+
+    <div class="socials">
+
+        <!--instagram-->
+        <a href="https://www.instagram.com/giordanorimato/" target="_blank">
+            <img src="assets/icone/icons8-instagram.gif"
+            alt="Instagram"
+            loading="lazy"
+            class="socicon">
+        </a>
+
+        <!--Github-->
+        <a href="https://github.com/Gio1804" target="_blank">
+            <img src="assets/icone/github.png"
+            alt="Github"
+            loading="lazy"
+            class="socicon">
+        </a>
+
+        <!--Gitlab-->
+        <a href="https://gitlab.com/Giordano.R" target="_blank">
+            <img src="assets/icone/icons8-gitlab-48.png"
+            alt="Gitlab"
+            loading="lazy"
+            class="socicon">
+        </a>
+        
+    </div>
+</body>
+
+</html>

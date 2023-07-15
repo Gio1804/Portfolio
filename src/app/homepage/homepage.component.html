@@ -1,1 +1,55 @@
-<p>homepage works!</p>
+<!DOCTYPE html>
+<html lang="it">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+</head>
+
+<body>
+
+    <nav #navigation >
+        <img id="logo" src="assets\immagini\logo.png">
+
+        <div class="flex-container">
+            <div class="button-container">
+                <button class="button" [matMenuTriggerFor]="menu">Menu</button>
+                <mat-menu #menu="matMenu">
+                    <button mat-menu-item><a class="items" href="#chi-sono">Chi Sono</a></button>
+                    <button mat-menu-item><a class="items" href="#skills">Competenze</a></button>
+                    <button mat-menu-item><a class="items" href="#progetti">Progetti</a></button>
+                    <button mat-menu-item><a class="items" href="#contatti">Contatti</a></button>
+                    <button mat-menu-item><a class="items" href="assets/cv/CV - Giordano Rimato.pdf"
+                            target="_blank">CV</a></button>
+
+                </mat-menu>
+            </div>
+        </div>
+
+
+    </nav>
+
+    <section id="chi-sono">
+
+        <div class="container">
+            <img class="foto-home" src="assets\immagini\imm. home.jpg" alt="una mia foto">
+            <mat-card class="bio">
+                <mat-card-content class="card">
+                    <h2 class="about">Su di me</h2>
+                    <p class="text">Ciao, mi presento, mi chiamo <a class="cv" href="assets/cv/CV - Giordano Rimato.pdf"
+                            target="_blank"><strong>Giordano Rimato</strong></a>,
+                        vengo da Roma ed ho 29 anni.<br>
+                        Mi sono diplomato presso l'istituto alberghiero, ma la mia passione è la tecnologia e
+                        così ho intrapreso questo percorso con l'obiettivo di diventare <em>Front-End Developer</em>.
+                        I miei hobby sono: lo sport, le attività all'aperto, il calcio e lo stare in compagnia.
+                        Il mio desidero è specializzarmi in questo settore.</p>
+                </mat-card-content>
+            </mat-card>
+        </div>
+
+    </section>
+
+</body>
+
+</html>

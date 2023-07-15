@@ -1,4 +1,5 @@
-import { Component } from '@angular/core';
+import { Component, ViewChild } from '@angular/core';
+import { MatMenuTrigger } from '@angular/material/menu';
 
 @Component({
   selector: 'app-homepage',
@@ -7,4 +8,10 @@ import { Component } from '@angular/core';
 })
 export class HomepageComponent {
 
+  @ViewChild(MatMenuTrigger) trigger!: MatMenuTrigger;
+
+  someMethod() {
+    this.trigger.openMenu();
+  }
+  
 }
