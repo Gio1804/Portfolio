@@ -3,11 +3,11 @@ import { BrowserModule } from '@angular/platform-browser';
 import { AppRoutingModule } from './app-routing.module';
 
 import { AppComponent } from './app.component';
-import { HomepageComponent } from './homepage/homepage.component';
-import { ContattiComponent } from './contatti/contatti.component';
-import { CompetenzeComponent } from './competenze/competenze.component';
-import { ProgettiComponent } from './progetti/progetti.component';
-import { FooterComponent } from './footer/footer.component';
+import { HomepageComponent } from './componenti/homepage/homepage.component';
+import { ContattiComponent } from './componenti/contatti/contatti.component';
+import { CompetenzeComponent } from './componenti/competenze/competenze.component';
+import { ProgettiComponent } from './componenti/progetti/progetti.component';
+import { FooterComponent } from './componenti/footer/footer.component';
 
 import { MatSidenavModule } from '@angular/material/sidenav';
 import { MatListModule } from '@angular/material/list';
