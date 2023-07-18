@@ -76,7 +76,7 @@ nav {
     margin-top: 150px;
     position: static;
     justify-content: start;
-    box-Shadow: rgb(139, 142, 175) 0px 2px 15px 2px;
+    box-shadow: rgb(139, 142, 175) 0px 2px 15px 2px;
 
     border-radius: 100% 0% 100% 0% / 70% 50% 50% 30%;
     height: 350px;
@@ -98,7 +98,7 @@ nav {
     margin-left: 15%;
     width: 40%;
     border-radius: 10px;
-    box-Shadow: rgb(139, 142, 175) 0px 2px 15px 2px;
+    box-shadow: rgb(139, 142, 175) 0px 2px 15px 2px;
 
 
 }
@@ -179,87 +179,6 @@ nav{
 }
 }
 
-/* @media only screen and (max-width: 767px) {
-
-    .button {
-        display: flex;
-        background-color: #fff;
-        font-weight: 900;
-        font-size: 20px;
-        border-radius: 20px;
-        border: none;
-        width: 50px;
-        margin-bottom: 5px;
-    }
-
-    .flex-container {
-        display: flex;
-        justify-content: space-between;
-        flex-wrap: wrap;
-        width: 95px;
-        height: 30px;
-        margin-top: 8px;
-    }
-
-
-    .items {
-        font-size: 17px;
-    }
-
-    #logo {
-        margin-top: 5px;
-        margin-left: 1%;
-        border-radius: 8px;
-        height: 30px;
-    }
-
-    section {        
-        margin: 0;
-    }
-
-    .container {
-        display: inline;
-        position: absolute;
-
-    }
-
-    .foto-home {
-
-        margin-left: 45px;
-        margin-top: 70px;
-        margin-bottom: 30px;
-        height: 300px;
-        width: 300px;
-        border-radius: 50%
-    }
-
-    .card {
-        height: 330px;
-        width: 300px;
-
-
-    }
-
-    .bio {
-
-        margin: 0;
-        margin-left: 5%;
-        width: 350px;
-    }
-
-    .about {
-        text-align: center;
-        font-size: 30px;
-
-    }
-
-    p {
-        text-align: center;
-        font-size: 20px;
-
-    }
-
-} */
 
 /* Tablet */
 @media only screen and (min-width: 768px) and (max-width: 1023px) {
