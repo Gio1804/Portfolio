@@ -41,19 +41,21 @@ h1 {
 
 /* Mobile */
 @media only screen and(max-width: 768px) {
-    h1 {
+    h1 {           
       font-size: 30px;
     }
   
     .skills {
       max-width: 100%;
       margin: 0;
+      
       text-align: center;
       margin-top: 0;
       
     }
   
     .skill-header {
+      
       margin-bottom: 1rem;
       margin-right: 10px;
     }
