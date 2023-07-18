@@ -1,52 +1,54 @@
-footer{
+footer {
     background-color: rgba(211, 211, 211, 0.105);
     padding: 1.5px;
     text-align: center;
     margin: 0 0 0;
-    font-size: 16px;      
+    font-size: 16px;
 }
 
-.arrow-up{
+.arrow-up {
     position: fixed;
     right: 0.5%;
     bottom: 1%;
     cursor: pointer;
 }
 
-.arrow{
+.arrow {
     width: 48px;
     height: 48px;
 }
 
 /* Mobile */
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 767px) {
     footer {
-      position: static;
-      margin: 0;  
-      margin-top: 17px;         
-      padding: 10px;
-      text-align: center;
-      font-size: 20px;
+        position: static;
+        margin: 0;
+        margin-top: 17px;
+        padding: 10px;
+        text-align: center;
+        font-size: 20px;
     }
-  .arrow{    
-    height: 45px;
-    width: 45px;
-  }
 
-  .arrow-up{
-   margin: 0;
-  }
-  
-  }
+    .arrow {
+        height: 45px;
+        width: 45px;
+    }
 
-  /* Tablet */
+    .arrow-up {
+        margin: 0;
+    }
+
+}
+
+/* Tablet */
 @media only screen and (min-width: 768px) and (max-width: 1023px) {
-    footer{
+    footer {
         margin-top: 10px;
     }
-    .copy{
+
+    .copy {
         font-size: 25px;
     }
 
-    
+
 }

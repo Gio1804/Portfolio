@@ -40,48 +40,18 @@ h1 {
 }
 
 /* Mobile */
-@media only screen and(max-width: 768px) {
-    h1 {           
-      font-size: 30px;
-    }
-  
-    .skills {
-      max-width: 100%;
-      margin: 0;
-      
-      text-align: center;
-      margin-top: 0;
-      
-    }
-  
-    .skill-header {
-      
-      margin-bottom: 1rem;
-      margin-right: 10px;
-    }
-  
-    .skills-wrapper img {
-      padding: 10px;
-    }
-  
-    .icon {
-      width: 40%;
-      height: 30%;
-    }
-  
-    .icon-card {
-      background: rgb(255, 255, 255) none repeat scroll 0% 0% / auto padding-box border-box;
-      background-color: rgb(255, 255, 255);
-      border-radius: 11px;
-      overflow: clip;
-      box-shadow: rgb(161, 122, 105) 0px 3px 10px 0px;
-      position: static;      
-      text-align: center;
-      padding: 10px;
-      margin: 20px;
-      
-    }  
+@media only screen and (max-width: 767px) {
+ 
+  h1 {           
+    font-size: 30px;      
   }
+
+  .icon{
+    width: 6rem;
+    height: 6rem;
+  }  
+  
+}
 
 /* Tablet */
 @media only screen and (min-width: 768px) and (max-width: 1023px) {

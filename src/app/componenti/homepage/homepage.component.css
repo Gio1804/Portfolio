@@ -12,16 +12,14 @@ section {
 
 nav {
     display: flex;
-    margin-left: 0;
+    justify-content: space-between;
+    position: fixed;
+    margin-left: 5px;    
     background-color: white;
     padding: 1.5px;
     border-radius: 100px;
     height: 50px;
-
-    justify-content: space-between;
-    position: fixed;
     top: 0;
-    margin-left: 5px;
     width: 99%;
     z-index: 1;
 }
@@ -77,7 +75,6 @@ nav {
     position: static;
     justify-content: start;
     box-shadow: rgb(139, 142, 175) 0px 2px 15px 2px;
-
     border-radius: 100% 0% 100% 0% / 70% 50% 50% 30%;
     height: 350px;
     margin-left: 60px;
@@ -142,15 +139,11 @@ nav {
 /* Mobile */
 @media only screen and (max-width: 767px){
 .container {
-    display: inline;
-    text-align: center;
-    margin: 0;
-    margin-right: 50px;
+    display: inline-block;     
 }
 
 nav{
-    margin: 0;
-    
+    margin: 0;    
 }
 
 .foto-home {     
@@ -158,20 +151,30 @@ nav{
     margin-top: 90px;
 }
 
+
 .bio {
     margin: 0;
-    margin-top: 55px;
-    margin-bottom: 90px;
-    text-align: center;
-    width: 100%;
+    margin-top: 55px;   
+    margin-bottom: 90px;   
+    width: 100%;    
+}
+
+.card{   
+    margin: 0; 
+    
+    height: 305px; 
+    width: 255px;  
 }
 
 .about {
     font-size: 30px;
+    
 }
 
 .text {
-    font-size: 20px;
+        
+    font-size: 1.1rem;
+    text-align: left;
 }
 
 .items{
