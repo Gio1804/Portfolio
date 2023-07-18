@@ -41,122 +41,56 @@ h1 {
 }
 
 /* Mobile */
-@media (max-width: 768px) {
-    h1 {
-      font-size: 30px;
+@media screen and (max-width: 768px) {
+    h1 {              
+        font-size: 30px;
     }
   
     .progetti {
       background-color: rgba(211, 211, 211, 0.105);
       padding: 20px;
-      margin-top: 0;   
-        margin-right: 200px;
-     
+      margin: 0;          
     }
   
     .progetti-foto {
-      width: 100%;
+      width: 50%;
       height: auto;
     }
   
     .progetti-container {
       display: block;
-      align-items: flex-start;
-      justify-content: flex-start;
-      text-align: left;
-      padding: 0;
-      
-         
-      
-      
+      align-items: flex-start;      
+      text-align: center;
+      padding: 0;             
+      margin-left: 40px;       
     }
   
     .titoli-progetti {
-      text-align: left;
-      font-size: 25px;
-      margin-bottom: 0.5rem;
-      margin-left: 50px;
+      text-align: center;      
+      margin-bottom: 1rem;
+      margin-left: 5px;
     }
   
     .progetti-container p {
       padding: 0;
+      font-size: 20px;
     }
   
     .card {
-      width: 100%;
+      width: 80%;
       background-color: #fff;
       border-radius: 11px;
       box-shadow: rgb(139, 142, 175) 0px 3px 10px 0px;
       padding: 10px;      
       margin: 0;
-    }
-  }
-/* @media only screen and (max-width: 767px) {
-
-    .progetti-container{
-    
-       margin-right: 0;
-      width: 50px;
-    }
-    .progetti{
-        display: inline-flex !important;
-        justify-content: space-around;
-       
-        
-    }
-
-    .progetti-titolo{
-        font-size: 12px;
+      margin-bottom: 50px;
     }
 
     .link{
-       
-        text-align: center;
-        font-size: 13px;
+        font-size: 18px;
     }
+  }
 
-
-
-    
-
-    .progetti {    
-
-        margin: 0;
-        margin-top: 20%;
-        margin-left: 0;
-        margin-right: 50%;
-        height: auto;
-       
-        
-
-    }
-
-    
-
-
-    .titoli-progetti {
-        margin: 10px;      
-    }
-
-    .progetti-container {
-        flex-direction: row;
-      
-        padding: 25px;
-        width: 60px;
-    }     
-
-    h1 {
-        font-size: 25px;
-        width: 80%;
-
-    }
-
-
-    p {
-        font-size: 10px;
-        text-align: center;
-    }
-} */
 
 /* Tablet */
 @media only screen and (min-width: 768px) and (max-width: 1023px){    

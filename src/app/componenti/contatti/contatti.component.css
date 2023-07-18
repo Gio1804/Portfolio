@@ -24,7 +24,7 @@ textarea {
     display: flex;
     margin: 25px 305.667px;
     border-radius: 11px;
-    max-Width: 620px;
+    max-width: 620px;
     padding: 15px;
     box-shadow: rgb(139, 142, 175) 0px 3px 10px 0px;
 
@@ -80,17 +80,16 @@ input[type=submit]:active {
 }
 
 /* Mobile */
-@media (max-width: 768px) {
+@media screen and (max-width: 767px) {
     .container {
-        width: 48%;
         margin: 0;
-        margin-left: 15px;
-        margin-right: 20px;
+        margin-left: 8%;
+        width: 85%;
     }
 
     h1 {
-        margin-right: 190px;
-        font-size: 25px;
+        margin: 0;
+        font-size: 30px;
     }
 
     input[type=text],
@@ -99,21 +98,20 @@ input[type=submit]:active {
     textarea {
         width: 100%;
         padding: 10px;
-        /* border: 1px solid #ccc; */
         border-radius: 5px;
         box-sizing: border-box;
         margin-top: 6px;
         margin-bottom: 16px;
         resize: vertical;
-        font-size: 13px;
+        font-size: 20px;
     }
 
     .contact-form {
-        font-size: 14px;
+        font-size: 20px;
     }
 
     ::placeholder {
-        font-size: 12px;
+        font-size: 17px;
     }
 
     input[type=submit] {
@@ -122,10 +120,9 @@ input[type=submit]:active {
         margin: 10px 0;
         background-color: #fff;
         border: 2px solid;
-        border-radius: 5px;
-        font-size: 1rem;
+        border-radius: 5px;        
         font-weight: bold;
-        font-size: 18px;
+        font-size: 20px;
         font-weight: 700;
     }
 
@@ -140,54 +137,14 @@ input[type=submit]:active {
     }
 
     .socials {
-        margin-right: 48%;
+        margin: 0;
     }
 
-    .socicon {
-        height: 17px;
-        width: 17px;
-    }
+
+
 
 }
 
-/* @media only screen and (min-width : 767px) {
-    h1 {
-        font-size: 30px;
-        margin-top: 5px;
-        margin-right: 59px;
-        
-    }
-
-    .container {
-        position: absolute;
-        margin-top: 15%;
-        margin-left: 50% ;
-        padding-top: 0;
-        padding-left: 0;
-        padding-right: 0;
-        height: 58%;
-        width: 50%;
-    }
-
-    .contact-form {
-        padding: 0;
-        padding-top: 0;        
-        font-size: 20px;
-    }
-
-    ::placeholder {
-        font-size: 20px;
-    }
-
-    .social{
-    margin-right: 50%;
-    }
-    .socicon{
-        padding: 3px;        
-    }
-
-
-} */
 /* @media only screen and (max-width: 767px) {
 
 

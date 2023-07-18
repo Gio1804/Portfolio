@@ -20,31 +20,22 @@ footer{
 @media (max-width: 768px) {
     footer {
       position: static;
-      margin: 0;
-      margin-right: 47%;
+      margin: 0;  
+      margin-top: 17px;         
       padding: 10px;
       text-align: center;
-      font-size: 14px;
+      font-size: 20px;
     }
-  .arrow{
-    height: 40px;
-    width: 40px;
+  .arrow{    
+    height: 45px;
+    width: 45px;
   }
-    .arrow-up {
-        margin-right: 46%;
-       
-    }
-  }
-/* @media only screen and (max-width: 767px) {
 
-    
-    footer{
-    margin-left: 0 !important;    
-    }
-    .copy{
-        font-size: 18px;
-    }
-} */
+  .arrow-up{
+   margin: 0;
+  }
+  
+  }
 
 @media only screen and (min-width: 768px) and (max-width: 1023px) {
     footer{

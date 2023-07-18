@@ -42,7 +42,7 @@ h1 {
 /* Mobile */
 @media (max-width: 768px) {
     h1 {
-      font-size: 25px;
+      font-size: 30px;
     }
   
     .skills {
@@ -50,13 +50,12 @@ h1 {
       margin: 0;
       text-align: center;
       margin-top: 0;
-      margin-right: 50%;
-      margin-left: 5%;
+      
     }
   
     .skill-header {
-      margin-bottom: 0.5rem;
-      margin-left: 10%;
+      margin-bottom: 1rem;
+      margin-right: 10px;
     }
   
     .skills-wrapper img {
@@ -64,7 +63,7 @@ h1 {
     }
   
     .icon {
-      width: 30%;
+      width: 40%;
       height: 30%;
     }
   
@@ -79,40 +78,8 @@ h1 {
       padding: 10px;
       margin: 20px;
       
-    }
+    }  
   }
-/* @media only screen and (max-width: 767px) {
-
-    .skill-header {
-        width: 50%;
-        font-size: 25px;
-       }
-
-    .skills {
-        width: 90%;
-
-        margin: 0;
-        margin-top: 0;
-        margin-left: 0 !important;
-
-
-    }
-
-    .skills-wrapper {
-        width: 50%;
-        margin-left: 0 !important;
-
-    }
-
-    .icon {
-        margin: 10px;
-        height: 100px;
-        width: 50%;
-
-    }
-} */
-
-
 
 /* Tablet */
 @media only screen and (min-width: 768px) and (max-width: 1023px) {
