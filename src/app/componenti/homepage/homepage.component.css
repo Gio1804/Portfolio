@@ -146,6 +146,16 @@ nav{
     margin: 0;    
 }
 
+.button-container{
+    padding-top: 12px;
+    padding-right: 5px;
+}
+
+section{    
+    margin: 0;
+    text-align: center;
+}
+
 .foto-home {     
     margin: 0;
     margin-top: 90px;
@@ -160,9 +170,8 @@ nav{
 }
 
 .card{   
-    margin: 0; 
-    
-    height: 305px; 
+    margin: 0;    
+    height: 313px; 
     width: 255px;  
 }
 
