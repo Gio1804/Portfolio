@@ -183,7 +183,9 @@ section{
 .text {
         
     font-size: 1.1rem;
-    text-align: left;
+    text-align: justify;
+    padding-bottom: 2rem;
+    word-spacing: 0;
 }
 
 .items{
