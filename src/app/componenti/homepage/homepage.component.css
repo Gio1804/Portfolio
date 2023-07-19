@@ -14,7 +14,7 @@ nav {
     display: flex;
     justify-content: space-between;
     position: fixed;
-    margin-left: 5px;    
+    margin-left: 5px;
     background-color: white;
     padding: 1.5px;
     border-radius: 100px;
@@ -84,7 +84,7 @@ nav {
 .container {
     display: flex;
     height: 80%;
-    
+
 
 }
 
@@ -137,60 +137,47 @@ nav {
 
 
 /* Mobile */
-@media only screen and (max-width: 767px){
-.container {
-    display: inline-block;     
-}
+@media only screen and (max-width: 767px) {
+    .container {
+        display: inline-block;
+    }
 
-nav{
-    margin: 0;    
-}
+    nav {
+        margin: 0;
+    }
 
-.button-container{
-    padding-top: 12px;
-    padding-right: 5px;
-}
+    .button-container {
+        padding-top: 12px;
+        padding-right: 5px;
+    }
 
-section{    
-    margin: 0;
-    text-align: center;
-}
+    section {
+        margin: 0;
+        text-align: center;
+    }
 
-.foto-home {     
-    margin: 0;
-    margin-top: 90px;
-}
+    .foto-home {
+        margin: 0;
+        margin-top: 90px;
+    }
 
+    .about {
+        font-size: 1.875rem;
+    }
 
-.bio {
-    margin: 0;
-    margin-top: 55px;   
-    margin-bottom: 90px;   
-    width: 100%;    
-}
+    .bio {
+        margin: 0;
+        margin-top: 3.438rem;
+        width: 20.5rem;
+    }
 
-.card{   
-    margin: 0;    
-    height: 320px; 
-    width: 255px;  
-}
+    .text {
+        font-size: 1.1rem;
+    }
 
-.about {
-    font-size: 30px;
-    
-}
-
-.text {
-        
-    font-size: 1.1rem;
-    text-align: justify;
-    padding-bottom: 2rem;
-    word-spacing: 0;
-}
-
-.items{
-    font-size: 20px;
-}
+    .items {
+        font-size: 20px;
+    }
 }
 
 
