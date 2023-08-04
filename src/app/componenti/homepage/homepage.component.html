@@ -9,18 +9,18 @@
 
 <body>
 
-    <nav #navigation >
+    <nav #navigation>
         <a href="#contatti"><img id="logo" src="assets\immagini\logo.png"></a>
 
         <div class="flex-container">
             <div class="button-container">
                 <button class="button" [matMenuTriggerFor]="menu">Menu</button>
                 <mat-menu #menu="matMenu">
-                    
+
                     <button mat-menu-item><a class="items" href="#chi-sono">Chi Sono</a></button>
                     <button mat-menu-item><a class="items" href="#skills">Competenze</a></button>
                     <button mat-menu-item><a class="items" href="#progetti">Progetti</a></button>
-                    <button mat-menu-item><a class="items" href="#contatti">Contatti</a></button>                    
+                    <button mat-menu-item><a class="items" href="#contatti">Contatti</a></button>
 
                 </mat-menu>
             </div>
@@ -32,16 +32,18 @@
     <section id="chi-sono">
 
         <div class="container">
-            <a href="https://www.instagram.com/giordanorimato/" target="_blank"><img class="foto-home" src="assets\immagini\imm. home.jpg" alt="una mia foto"></a>
+            <a href="https://www.instagram.com/giordanorimato/" target="_blank"><img class="foto-home"
+                    src="assets\immagini\imm. home.jpg" alt="una mia foto"></a>
             <mat-card class="bio">
                 <mat-card-content class="card">
                     <h2 class="about">Su di me</h2>
-                    <p class="text">Ciao, mi presento, mi chiamo <a class="name" href="#contatti"
-                            target="_blank"><strong>Giordano Rimato</strong></a>,
+                    <p class="text">Ciao, mi presento, mi chiamo <a class="name" href="#contatti"><strong>Giordano
+                                Rimato</strong></a>,
                         vengo da Roma ed ho 29 anni.<br>
                         Mi sono diplomato presso l'istituto alberghiero, ma la mia passione è la tecnologia e
-                        così ho intrapreso questo percorso con l'obiettivo di diventare <em>Front-End Developer</em>.<br>
-                        I miei hobby sono: lo sport, le attività all'aperto, il calcio e lo stare in compagnia. 
+                        così ho intrapreso questo percorso con l'obiettivo di diventare <em>Front-End
+                            Developer</em>.<br>
+                        I miei hobby sono: lo sport, le attività all'aperto, il calcio e lo stare in compagnia.
                         Il mio desidero è specializzarmi in questo settore.</p>
                 </mat-card-content>
             </mat-card>
