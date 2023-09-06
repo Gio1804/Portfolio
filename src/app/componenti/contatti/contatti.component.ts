@@ -13,7 +13,7 @@ export class ContattiComponent {
     e.preventDefault();
     emailjs.sendForm('service_v0l786g', 'template_uekjphv', e.target as HTMLFormElement, 'Wo0uKX14aKJiipEP2')
       .then((result: EmailJSResponseStatus) => {
-        alert('Email inviata con successo!');
+        alert('E-mail inviata con successo!');
         
         //resetta form dopo invio 
         (e.target as HTMLFormElement).reset()
