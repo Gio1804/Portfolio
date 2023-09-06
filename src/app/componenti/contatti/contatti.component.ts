@@ -11,7 +11,7 @@ export class ContattiComponent {
 
   sendEmail(e: any) {
     e.preventDefault();
-    emailjs.sendForm('service_1f4kblf', 'template_2yyeuas', e.target as HTMLFormElement, 'Wo0uKX14aKJiipEP2')
+    emailjs.sendForm('service_v0l786g', 'template_uekjphv', e.target as HTMLFormElement, 'Wo0uKX14aKJiipEP2')
       .then((result: EmailJSResponseStatus) => {
         alert('Email inviata con successo!');
         
